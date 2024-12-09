@@ -23,7 +23,7 @@ void print_time(time64_t t) {
 
 int main() {
     // Maximum value for 32-bit signed integer
-    time64_t max_time = 2147483647; // 2^31 - 1
+    time64_t max_time = 2147483647; // 2^31 - 1 sign integer
     printf("Maximum 32-bit time:\n");
     print_time(max_time);
 
